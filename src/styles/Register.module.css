@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background: #CBD7DF;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+a {
+    color: #FFF;
+}
+
+
+.header {
+    width: 1920px;
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header img {
+    width: 73.01px;
+    height: 73.014px;
+    margin-left: 448px;
+}
+
+.header button {
+    float: right;
+    border: 0px;
+    width: 85px;
+    height: 37px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background: #17181B;
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    margin-right: 448px;
+    margin-top: 18.5px;
+}
+
+button:hover {
+    background: gray;
+    color: black;
+    cursor: pointer;
+}
+
+.header button:active {
+    background: #17181B;
+    color: #FFF;
+}
+
+.register_form {
+    margin: auto;
+    margin-top: 67px;
+    width: 314px;
+    height: 371px;
+}
+
+.register_form h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #17181B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    text-transform: uppercase;
+}
+
+.register_form h2 {
+    margin-top: 25px;
+    margin-bottom: 7px;
+    color: #17181B;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+input {
+    width: 289px;
+    height: 64px;
+    border-radius: 4px;
+    border: 1px solid #17181B;
+    color: #17181B;
+    /* 15px, Regular */
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 0 0 0 23px;
+    background: #CBD7DF;
+}
+
+.register {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 152%;
+    width: 313px;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #C40202;
+    margin-top: 25px;
+    border: 0;
+}

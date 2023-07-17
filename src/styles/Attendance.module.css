@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  background: #CBD7DF;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+text-decoration: none;
+}
+
+a {
+  color: #FFF;
+}
+
+
+.header {
+  width: 1920px;
+  height: 120px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header img {
+  width: 73.01px;
+  height: 73.014px;
+  margin-left: 448px;
+}
+
+.header button {
+  float: right;
+  border: 0px;
+  width: 85px;
+  height: 37px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  background: #17181B;
+  color: #FFF;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-right: 448px;
+  margin-top: 18.5px;
+}
+
+button:hover {
+  background: gray;
+  color: black;
+  cursor: pointer;
+}
+
+.header button:active {
+  background: #17181B;
+  color: #FFF;
+}
+
+.attendance {
+  margin-top: 67px;
+  text-align: center;
+}
+
+.attendance h1 {
+  color: #17181B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.month_choise {
+  display: inline-block;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.month_choise select {
+  width: 490px;
+  height: 66px;
+  border-radius: 2px;
+  border: 1px solid #17181B;
+  color: #17181B;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-right: 20px;
+}
+
+.month_choise option {
+  height: 60px;
+}
+
+.register {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 152%;
+  border-radius: 4px;
+  background: #C40202;
+  border: 0px solid;
+  padding: 19px 0px;
+  width: 490px;
+  height: 66px;
+}
+
+.attendance table {
+  margin: auto;
+  color: #17181B;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.add {
+  width: 289px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid #17181B;
+  color: #17181B;
+  /* 15px, Regular */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 0 0 0 23px;
+  background: #CBD7DF;
+}
+
+.addbutton {
+  font-size: 30px;
+  letter-spacing: 10%;
+  width: 55px ;
+  height: 37px;
+  background: #17181B;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.checkboxes {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+td {
+  width: 62px;
+}
+
+td {
+  height: 36px;
+  border-bottom: 1px solid black;
+}
+
+input {
+  width: 20px;
+  height: 20px;
+}
